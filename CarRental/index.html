@@ -13,13 +13,12 @@
         <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
         <link href="styles/main.css" rel="stylesheet" />
     </head>
-    <body id="friendsApp">
+    <body id="carsApp">
         <section data-role="layout" data-id="default">
             <!--View content will render here-->
         </section>
         <!--WELCOME VIEW -->
-        <div data-role="view" id="welcome" data-layout="default" class="welcome-scrn form-view" data-model="app.viewModels.login">
-            <h1><b>Everlive</b> sample application</h1>
+        <div data-role="view" id="welcome" data-layout="default" class="welcome-scrn form-view" data-model="app.viewModels.login">  
             <form id="login-form">
                 <ul data-role="listview" data-style="inset">
                     <li><label for="loginUsername">Username</label> <input type="text" id="loginUsername" required validationMessage="Username is required!" /></li>
@@ -37,8 +36,6 @@
                 </li>
                 <li class="b-top"><a data-role="button" href="views/signupView.html" class="btn-signup btn-big">Sign up</a> </li>
             </ol>
-
-            <div data-role="footer"><p>Powered by Icenium Everlive.</p></div>
         </div>
     </body>
 </html>

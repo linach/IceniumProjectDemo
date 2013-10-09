@@ -1,0 +1,15 @@
+<div data-role="view" id="single-car" data-layout="default" class="activities-view" data-show="app.viewModels.car.show">
+    <header data-role="header">
+        <div data-role="navbar">
+            Car
+            <a class="nav-button" data-align="left" data-role="backbutton">Back</a>
+        </div>
+    </header>
+
+    <div id="car-details-container">
+        <h2 data-bind='text: Manufacturer'></h2>
+        <h3 data-bind='text: Model'></h3>
+        <time data-bind="text: ProductionDateFormatted"></time>
+        <p data-bind='text: RentalPrice'></p>
+    </div>
+</div>

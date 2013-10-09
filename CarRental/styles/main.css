@@ -1,4 +1,4 @@
-#friendsApp.km-android .km-view
+#carsApp.km-android .km-view
 {
     -moz-box-orient:vertical;
     -webkit-box-orient:vertical;
@@ -7,27 +7,27 @@
     -ms-flex-direction:column;
     flex-direction:column;
 }
-#friendsApp.km-ios, #friendsApp.km-android, #friendsApp.km-ios .km-list > li
+#carsApp.km-ios, #carsApp.km-android, #carsApp.km-ios .km-list > li
 {
     font-weight: normal;    
 }
-#friendsApp.km-ios .km-listinset, #friendsApp.km-ios .km-listgroupinset .km-list
+#carsApp.km-ios .km-listinset, #carsApp.km-ios .km-listgroupinset .km-list
 {
     border: 0;
 }
-#friendsApp.km-ios, #friendsApp.km-ios .km-content, #friendsApp.km-android, #friendsApp.km-android .km-content
+#carsApp.km-ios, #carsApp.km-ios .km-content, #carsApp.km-android, #carsApp.km-android .km-content
 {
     background-image: url(images/app-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #4b2113;
 }
-#friendsApp.km-ios .form-view .km-listinset, #friendsApp.km-android .form-view .km-listinset
+#carsApp.km-ios .form-view .km-listinset, #carsApp.km-android .form-view .km-listinset
 {
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);    
 }
-#friendsApp.km-android .km-listview-link::after, #friendsApp.km-android .km-listview-label::after
+#carsApp.km-android .km-listview-link::after, #carsApp.km-android .km-listview-label::after
 {
     display: block;
     border-color: rgba(255,255,255,.5);
@@ -47,44 +47,44 @@
     background-color: transparent;    
 }
 /* Buttons */
-#friendsApp.km-android .km-leftitem
+#carsApp.km-android .km-leftitem
 {
     left: 0;
 }
-#friendsApp.km-android .km-rightitem
+#carsApp.km-android .km-rightitem
 {
     right: 0;
 }
-#friendsApp.km-ios .km-button, #friendsApp.km-android .km-button
+#carsApp.km-ios .km-button, #carsApp.km-android .km-button
 {
     background-color: #ff6c00;
 }
-#friendsApp.km-ios .km-button, #friendsApp.km-ios .km-back::before
+#carsApp.km-ios .km-button, #carsApp.km-ios .km-back::before
 {
     -webkit-box-shadow: none;  
     box-shadow: none; 
     border: 0;
 }
-#friendsApp.km-ios .km-back, #friendsApp.km-android .km-back
+#carsApp.km-ios .km-back, #carsApp.km-android .km-back
 {
     background-color: #a36a57;   
 }
-#friendsApp.km-ios .km-back
+#carsApp.km-ios .km-back
 {
     border-top: 0;
 }
-#friendsApp.km-ios .km-back::before
+#carsApp.km-ios .km-back::before
 {
     left: -0.34em;
     top: .18em;
     height: .92em;
     border-bottom-color: #6e5852;   
 }
-#friendsApp.km-android .km-button
+#carsApp.km-android .km-button
 {
     color: #fff;
 }
-#friendsApp.km-android .km-navbar .km-button
+#carsApp.km-android .km-navbar .km-button
 {
     height: 1.6em;
 }
@@ -98,7 +98,7 @@
 {
     min-width: 7em;
 }
-#friendsApp.km-ios .welcome-scrn .btn-signup, #friendsApp.km-android .welcome-scrn .btn-signup
+#carsApp.km-ios .welcome-scrn .btn-signup, #carsApp.km-android .welcome-scrn .btn-signup
 {
     background-color: #272727;
 }
@@ -139,19 +139,19 @@
     text-align: center;
 }
 /*App Header*/
-#friendsApp.km-ios .km-navbar
+#carsApp.km-ios .km-navbar
 {
     background-image: none;   
     background-color: rgba(0,0,0,0.2);
     border-bottom: 1px solid #a78675;
 }
-#friendsApp.km-ios .km-view-title
+#carsApp.km-ios .km-view-title
 {
     font-weight: normal;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
-#friendsApp.km-android .km-view-title
+#carsApp.km-android .km-view-title
 {
     display: block;
     visibility: visible;
@@ -163,21 +163,21 @@
     border-bottom: 2px solid #fe8a3d;   
     line-height: 1.2;
 }
-.km-root #friendsApp.km-android .km-navbar
+.km-root #carsApp.km-android .km-navbar
 {
     padding-right: 0;   
     padding-left: 0;   
 }
-#friendsApp.km-android .km-navbar .km-icon
+#carsApp.km-android .km-navbar .km-icon
 {
     margin-left: 0;
     margin-right: 0;
 }
-#friendsApp.km-android .km-navbar
+#carsApp.km-android .km-navbar
 {
     background-color: #272727;    
 }
-#friendsApp.km-android .km-rightitem .km-button
+#carsApp.km-android .km-rightitem .km-button
 {
     background-color: #e45600;
     padding-left: 1.2rem;
@@ -190,18 +190,18 @@
     text-align: center;
     color: #999;    
 }
-#friendsApp.km-ios .welcome-scrn .km-footer
+#carsApp.km-ios .welcome-scrn .km-footer
 {
     background-color: rgba(0,0,0,0.2);
 }
-#friendsApp.km-android .welcome-scrn .km-footer
+#carsApp.km-android .welcome-scrn .km-footer
 {
     position: absolute;
     bottom: 0;
     background-color: #272727;
 }
 /* Forms */
-#friendsApp.km-android .form-view .km-list > li
+#carsApp.km-android .form-view .km-list > li
 {
     padding: 0;
 }
@@ -217,13 +217,13 @@
     
     font-size: 1.1rem;
 }
-#friendsApp.km-ios .form-view .km-listview label
+#carsApp.km-ios .form-view .km-listview label
 {
     background-color: #F4F4F4;
     border-right: 1px solid #e0dfdf;
     font-weight: bold;
 }
-#friendsApp.km-android .form-view .km-listview label
+#carsApp.km-android .form-view .km-listview label
 {
     background-color: #323232;
     border-right: 1px solid #404040;
@@ -232,7 +232,7 @@
 {
     height: 7rem;
 }
-#friendsApp.km-ios .form-view .km-listview input
+#carsApp.km-ios .form-view .km-listview input
 {
 }
 .km-list .txtarea-wrp
@@ -268,7 +268,7 @@ textarea
     background: transparent;   
     overflow: auto;
 }
-#friendsApp .km-list textarea
+#carsApp .km-list textarea
 {
     margin-right: 0;
 }
@@ -276,11 +276,11 @@ textarea
 {
     width: 56%;
 }
-#friendsApp.km-ios .km-list input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]):not(.k-input):not(.k-button), #friendsApp.km-ios .km-list select:not([multiple]), #friendsApp.km-ios .km-list .k-dropdown-wrap, #friendsApp.km-ios .km-list textarea
+#carsApp.km-ios .km-list input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]):not(.k-input):not(.k-button), #carsApp.km-ios .km-list select:not([multiple]), #carsApp.km-ios .km-list .k-dropdown-wrap, #carsApp.km-ios .km-list textarea
 {
     color: #666;
 }
-#friendsApp.km-android .km-list input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]):not(.k-input):not(.k-button), #friendsApp.km-android .km-list select:not([multiple]), #friendsApp.km-android .km-list .k-dropdown-wrap, #friendsApp.km-android textarea
+#carsApp.km-android .km-list input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]):not(.k-input):not(.k-button), #carsApp.km-android .km-list select:not([multiple]), #carsApp.km-android .km-list .k-dropdown-wrap, #carsApp.km-android textarea
 {
     color: #ccc;
     background-image: none;
@@ -309,26 +309,26 @@ textarea
     font-size: 1.2rem;
     font-weight: normal;
 }
-#friendsApp.km-ios .km-listinset, #friendsApp.km-ios .km-listgroupinset .km-list,
-#friendsApp.km-ios .km-listinset > li:first-child, #friendsApp.km-ios .km-listgroupinset .km-list > li:first-child,
-#friendsApp.km-ios .km-listinset > li:last-child, #friendsApp.km-ios .km-listgroupinset .km-list > li:last-child
+#carsApp.km-ios .km-listinset, #carsApp.km-ios .km-listgroupinset .km-list,
+#carsApp.km-ios .km-listinset > li:first-child, #carsApp.km-ios .km-listgroupinset .km-list > li:first-child,
+#carsApp.km-ios .km-listinset > li:last-child, #carsApp.km-ios .km-listgroupinset .km-list > li:last-child
 {
     border-radius: 0;   
 }
-#friendsApp.km-ios .form-view .km-list > li
+#carsApp.km-ios .form-view .km-list > li
 {
     padding: 0;   
     background-color: #fff;
 }
-#friendsApp.km-ios .form-view .km-list > li
+#carsApp.km-ios .form-view .km-list > li
 {
     min-height: 2.3em;
 }
-#friendsApp.km-android .form-view .km-list
+#carsApp.km-android .form-view .km-list
 {
     background-color: #222;
 }
-#friendsApp.km-android .form-view .km-listinset
+#carsApp.km-android .form-view .km-listinset
 {
     margin-top: 1em;
 }
@@ -388,17 +388,17 @@ textarea
     margin-top: 0;
     padding-top: 0;
 }
-/* Activities */
-.activities-view .km-list
+/* cars */
+.cars-view .km-list
 {
     margin: 1rem;
     background-color: transparent;
 }
-.activities-view .km-list.comments-list
+.cars-view .km-list.comments-list
 {
     margin-top: 0;   
 }
-#friendsApp .activities-view .km-list > li 
+#carsApp .cars-view .km-list > li 
 {
     margin-bottom: .2em;
     padding: 1rem 0;
@@ -407,23 +407,23 @@ textarea
     box-shadow: none;
     -webkit-box-shadow: none;
 }
-.activities-view .km-list.comments-list > li
+.cars-view .km-list.comments-list > li
 {
     padding-bottom: 1rem;
 }
-.activities-view .km-list > li:first-child
+.cars-view .km-list > li:first-child
 {
     padding-top: 0;
     background-image: none;
 }
-#friendsApp.km-ios .activities-view .km-list > li
+#carsApp.km-ios .cars-view .km-list > li
 {
     border: 0;
 }
-#friendsApp.km-android .activities-view .km-list > li
+#carsApp.km-android .cars-view .km-list > li
 {
 }
-.activities-view .km-list > li >img, .user-status-wrp img
+.cars-view .km-list > li >img, .user-status-wrp img
 {
     float: left;
 }
@@ -485,12 +485,12 @@ textarea
     margin-bottom: 1rem;
     padding: 0 0 .5rem;
 }
-#friendsApp.km-android .activities-view .user-share-txt
+#carsApp.km-android .cars-view .user-share-txt
 {
     font-size: 1rem;
     color: #000 !important;
 }
-#friendsApp.km-ios .km-detail
+#carsApp.km-ios .km-detail
 {
     display: none;
 }
@@ -530,7 +530,7 @@ textarea
 {
     font-size: 1.5rem;   
 }
-.km-tablet .profile-view h2, .km-tablet .activities-view h3
+.km-tablet .profile-view h2, .km-tablet .cars-view h3
 {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -572,12 +572,12 @@ textarea
 {
     font-size: 1.1rem;
 }
-.km-tablet .activities-view .km-list, .km-tablet .share-form-wrp, .km-tablet .user-status-wrp
+.km-tablet .cars-view .km-list, .km-tablet .share-form-wrp, .km-tablet .user-status-wrp
 {
     margin: 2rem;   
 } 
 /* Android*/
-.km-tablet .km-android .activities-view .user-share-txt
+.km-tablet .km-android .cars-view .user-share-txt
 {   
     font-size: 1.4rem;
 }
@@ -585,12 +585,12 @@ textarea
 {
     font-size: 3em;    
 } 
-.km-tablet  #friendsApp.km-android .km-navbar .km-button
+.km-tablet  #carsApp.km-android .km-navbar .km-button
 {
     height: 1.4em;
 }
 /* iPad */
-.km-tablet #friendsApp.km-ios .km-view-title
+.km-tablet #carsApp.km-ios .km-view-title
 {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -627,3 +627,8 @@ background-color: #A36A57;
 {
     font-size: 1.4em;
 } 
+
+.car-details-container
+{
+    background: white;    
+}

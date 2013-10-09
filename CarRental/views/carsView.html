@@ -1,0 +1,20 @@
+<div data-role="view" id="view-all-cars" data-layout="default" class="cars-view" data-model="app.viewModels.cars">
+    <header data-role="header">
+        <div data-role="navbar">
+            Cars
+            <a class="nav-button" data-align="left" data-role="backbutton" data-click="app.viewModels.cars.logout">Log out</a>
+        </div>
+    </header>
+    <ul id="cars-listview" data-style="inset" data-role="listview" data-template="carTemplate"
+        data-bind="source: cars"></ul>
+</div>
+
+<!-- Cars ListView Template -->
+<script type="text/x-kendo-template" id="carTemplate">
+    <div data-role="touch" data-bind="events: { tap: carSelected }">
+        <div class="user-info">
+            <h2>${Manufacturer}</h2>
+            <h3>${Model}</h3>
+        </div>
+    </div>
+</script>
